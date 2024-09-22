@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_lottie import st_lottie #pip
-import requests #pip 
+# from streamlit_lottie import st_lottie #pip
+import requests #pip
 import pandas as pd
 import boto3
 from sqlalchemy import create_engine
