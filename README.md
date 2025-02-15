@@ -58,13 +58,19 @@
 11. **Pertinent Recommendation system**
     - Recommended videos are more correlated to the user input
 
-**In-Depth Analytics: Channel and Video Analysis**
+**In-Depth Analytics: Channel & Video Analysis, Model Building and Model Hosting**
 
 **Channel Analysis:**
 Channel analysis provides detailed insights into playlists, videos, subscribers, views, likes, comments, and durations. Develop a profound understanding of the channel's performance and audience engagement through comprehensive visualizations and insightful summaries.
 
 **Video Analysis:**
 Video analysis hones in on views, likes, comments, and durations, offering perspectives from both an overall channel and specific video standpoint. Harness visual representations and metrics to glean valuable insights, enhancing the understanding of individual video performance. Dive deeper into the analytics to uncover nuanced details and trends that contribute to informed decision-making.
+
+**Model Building**
+The heart of the YouTube Video Recommendation System lies in its ability to provide personalized and relevant video recommendations. The model building phase utilizes Cosine Similarity to measure the similarity between video meta information using tags attribute.
+
+**Model Hosting**
+EC2 provides a scalable cloud computing environment where the model can handle real-time inference requests. EC2 instances are chosen based on the computational needs of the model, ensuring it can process large amounts of data and provide quick recommendations.
 
 **Streamlit Overview: Crafting User-Friendly Recommendation System**
 Create dynamic and interactive Recommendation System effortlessly with Streamlit, a powerful Python library. Streamlit simplifies the process of transforming data scripts into shareable web apps, requiring minimal code. Design visually appealing dashboards, charts, and interfaces to present and Recommend your data seamlessly. Whether you're a data scientist or developer, Streamlit offers an intuitive way to showcase your Recommendation System in a user-friendly environment.
